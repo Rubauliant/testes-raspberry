@@ -20,6 +20,8 @@ Com isso podemos criar o boot pelo cartão sd.
 ### 1.0.2 Confiurando arquivos para headless mode
 Para isso, você deve criar 2 arquivos dentro da raíz da pasta boot do flash disk com a imagem:
 
+![image](https://raw.githubusercontent.com/Rubauliant/testes-raspberry/06b99bf055eaecc404947b15ab78d7f575d0c646/images/img_1.png)
+
 - Um chamado `ssh` sem extensão para dizer que deve ser iniciado em headless mode;
 - Outro chamado `wpa_supplicant.conf` que irá ter a seguinte estrutura dentro dele (dando a configuração para o local BR):
 ```
